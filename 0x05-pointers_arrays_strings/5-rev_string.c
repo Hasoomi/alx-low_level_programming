@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
-* swap_int -> ginen two integers swap the values they are holding
-* @a: parameter 1
-* @b: parameter 2
+* rev_string -> reversing a string
+* @s: parameter s
 */
-void swap_int(int *a, int *b)
+void rev_string(int *a, int *b)
 {
 	char tmp;
 	int i, length1, length2;
